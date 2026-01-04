@@ -47,7 +47,7 @@ If you are running this in jupyter or other notebook make sure to download all r
 * QKCA + SSA achieved the highest test accuracy (63.45%)
 * SSSA reduced overall performance
 * Combining QKFormer and SSSA might need more optimization
-* Works better with higher optimizer learning rates(1e-3 performs better than 5e-3)
+* Works better with moderate optimizer learning rates than higher(1e-3 performs better than 5e-3)
 
 # References
 * QKFormer: Hierarchical Spiking Transformer using Q-K Attention(https://arxiv.org/abs/2403.16552)
